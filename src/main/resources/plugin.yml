@@ -2,3 +2,6 @@ name: JoinPlugin
 version: '${project.version}'
 main: me.histal.joinplugin.Joinplugin
 api-version: 1.19
+
+commands:
+  heal:
