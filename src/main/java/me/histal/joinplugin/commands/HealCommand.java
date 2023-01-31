@@ -27,8 +27,8 @@ public class HealCommand implements CommandExecutor {
             Player target = Bukkit.getPlayer(args[0]);
             if(target == null) return true;
             healPlayer(player);
-            player.sendMessage("§e Uzdravil jsi hráče §l" + target.getName());
-            target.sendMessage("§e Byl jsi uzdraven hráčem §l" + player.getName());
+            player.sendMessage("§eUzdravil jsi hráče §l" + target.getName());
+            target.sendMessage("§eByl jsi uzdraven hráčem §l" + player.getName());
         }
         return true;
     }
